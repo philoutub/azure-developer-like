@@ -66,8 +66,8 @@
           <appName>af-klm-az-204-wa-01-02</appName>  
           <pricingTier>B1</pricingTier>  
           <region>westeurope</region>  
-          <appServicePlanName>ASP-rgtrainee01-8489 (P1v3: 1)</appServicePlanName>  
-          <appServicePlanResourceGroup>af-klm-az-204</appServicePlanResourceGroup>  
+          <appServicePlanName>af-k1m-az-204-asp-01</appServicePlanName>  
+          <appServicePlanResourceGroup>rg_trainee_01</appServicePlanResourceGroup>  
           <runtime> 
             <os>Linux</os>  
             <javaVersion>17.0.2</javaVersion>  
