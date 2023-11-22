@@ -55,36 +55,36 @@
           </excludes> 
         </configuration> 
       </plugin>  
-      <plugin>
-        <groupId>com.microsoft.azure</groupId>
-        <artifactId>azure-webapp-maven-plugin</artifactId>
-        <version>2.5.0</version>
-        <configuration>
-          <schemaVersion>v2</schemaVersion>
+      <plugin> 
+        <groupId>com.microsoft.azure</groupId>  
+        <artifactId>azure-webapp-maven-plugin</artifactId>  
+        <version>2.5.0</version>  
+        <configuration> 
+          <schemaVersion>v2</schemaVersion>  
           <subscriptionId>16cfc856-c2f1-4103-80c3-8deba1743963</subscriptionId>  
           <resourceGroup>rg_trainee_01</resourceGroup>  
           <appName>af-klm-az-204-wa-01-02</appName>  
           <pricingTier>B1</pricingTier>  
-          <region>westeurope</region>
-          <appServicePlanName>af-klm-az-204-asp</appServicePlanName>
-          <appServicePlanResourceGroup>af-klm-az-204</appServicePlanResourceGroup>
-          <runtime>
-            <os>Linux</os>
-            <javaVersion>17.0.2</javaVersion>
-            <webContainer>Java SE</webContainer>
-          </runtime>
-          <deployment>
-            <resources>
-              <resource>
-                <directory>${project.basedir}/target</directory>
-                <includes>
-                  <include>*.jar</include>
-                </includes>
-              </resource>
-            </resources>
-          </deployment>
-        </configuration>
-      </plugin>
+          <region>westeurope</region>  
+          <appServicePlanName>ASP-rgtrainee01-8489 (P1v3: 1)</appServicePlanName>  
+          <appServicePlanResourceGroup>af-klm-az-204</appServicePlanResourceGroup>  
+          <runtime> 
+            <os>Linux</os>  
+            <javaVersion>17.0.2</javaVersion>  
+            <webContainer>Java SE</webContainer> 
+          </runtime>  
+          <deployment> 
+            <resources> 
+              <resource> 
+                <directory>${project.basedir}/target</directory>  
+                <includes> 
+                  <include>*.jar</include> 
+                </includes> 
+              </resource> 
+            </resources> 
+          </deployment> 
+        </configuration> 
+      </plugin> 
     </plugins> 
   </build> 
 </project>
