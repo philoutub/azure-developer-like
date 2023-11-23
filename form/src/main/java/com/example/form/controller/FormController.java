@@ -34,6 +34,9 @@ public class FormController {
 		model.addAttribute("form", new Form());
 		model.addAttribute("appTitle", appTitle);
 		model.addAttribute("userName", auth.getName());
+		for (UserFeedback userFeedback : feedbacks) {
+			userFeedback.setUrl( userFeedback.getUrl() + "?sp=r&st=2023-11-23T13:04:54Z&se=2023-11-23T21:04:54Z&spr=https&sv=2022-11-02&sr=c&sig=DCU3EYYlV0H1oV3uSJkXw9gSAO5lJ%2FmltTbSINfrpL4%3D" );
+		}
 		model.addAttribute("feedbacks", feedbacks);
 		model.addAttribute("message", null);
 		return "form";
