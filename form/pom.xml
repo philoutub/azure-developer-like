@@ -75,15 +75,15 @@
         <version>2.5.0</version>
         <configuration>
           <schemaVersion>v2</schemaVersion>
-          <subscriptionId>195d944b-74f6-4cb3-acb2-fc20eac1c87a</subscriptionId>
-          <resourceGroup>af-klm-az-204</resourceGroup>
-          <appName>af-klm-az-204-wa</appName>
-          <pricingTier>P1v2</pricingTier>
+          <subscriptionId>16cfc856-c2f1-4103-80c3-8deba1743963</subscriptionId>
+          <resourceGroup>trainee-e4ln04-2_rg</resourceGroup>
+          <appName>wb-trainee-02</appName>
+          <pricingTier>P1v3</pricingTier>
           <region>westeurope</region>
-          <appServicePlanName>af-klm-az-204-asp</appServicePlanName>
-          <appServicePlanResourceGroup>af-klm-az-204</appServicePlanResourceGroup>
+          <appServicePlanName>ASP-traineee4ln042rg-bc1b</appServicePlanName>
+          <appServicePlanResourceGroup>trainee-e4ln04-2_rg</appServicePlanResourceGroup>
           <runtime>
-            <os>Linux</os>
+            <os>Windows</os>
             <javaVersion>17.0.2</javaVersion>
             <webContainer>Java SE</webContainer>
           </runtime>
